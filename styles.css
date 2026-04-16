@@ -143,3 +143,21 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+/* Keep embeds contained */
+.carousel-item {
+  position: relative;
+  z-index: 1;
+}
+
+/* Ensure buttons sit above everything */
+.btn, .nav-btn {
+  position: relative;
+  z-index: 10;
+}
+
+/* Prevent weird overlay stacking */
+.hero, .hero-content {
+  position: relative;
+  z-index: 5;
+}
