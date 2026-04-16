@@ -4,73 +4,134 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Nails by Tinsy</title>
-  <link rel="stylesheet" href="styles.css" />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-  <!-- HERO -->
-  <header class="hero">
-    <div class="overlay">
-      <h1>Nails by Tinsy</h1>
-      <p>Elegant, modern nail artistry</p>
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-container">
+    <h2>Nails by Tinsy</h2>
+    <a href="https://www.instagram.com/nailsbytinsy/" target="_blank" class="nav-btn">
+      Instagram
+    </a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Luxury Nail Artistry</h1>
+    <p>Clean • Detailed • Modern</p>
+    <a href="https://www.instagram.com/nailsbytinsy/" target="_blank" class="btn">
+      Book / DM
+    </a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section">
+  <div class="container">
+    <h2>About</h2>
+    <p>
+      Nails by Tinsy specializes in modern, high-detail nail artistry.
+      Each set is crafted with precision and care to elevate your look.
+    </p>
+  </div>
+</section>
+
+<!-- INSTAGRAM CAROUSEL -->
+<section class="section alt">
+  <div class="container">
+    <h2>Recent Work</h2>
+
+    <div class="carousel">
+
+      <button class="carousel-btn prev">&#10094;</button>
+
+      <div class="carousel-track">
+
+        <div class="carousel-item">
+          <blockquote class="instagram-media"
+            data-instgrm-permalink="https://www.instagram.com/p/DXIbjO0kao2/"
+            data-instgrm-version="14"></blockquote>
+        </div>
+
+        <div class="carousel-item">
+          <blockquote class="instagram-media"
+            data-instgrm-permalink="https://www.instagram.com/p/DWpqlh3jLuU/"></blockquote>
+        </div>
+
+        <div class="carousel-item">
+          <blockquote class="instagram-media"
+            data-instgrm-permalink="https://www.instagram.com/p/DWXoczqkXco/"></blockquote>
+        </div>
+
+        <div class="carousel-item">
+          <blockquote class="instagram-media"
+            data-instgrm-permalink="https://www.instagram.com/p/DWAc4VMkf1N/"></blockquote>
+        </div>
+
+        <div class="carousel-item">
+          <blockquote class="instagram-media"
+            data-instgrm-permalink="https://www.instagram.com/p/DVpLe-lkUS7/"></blockquote>
+        </div>
+
+      </div>
+
+      <button class="carousel-btn next">&#10095;</button>
+
+    </div>
+
+    <div style="margin-top: 30px;">
       <a href="https://www.instagram.com/nailsbytinsy/" target="_blank" class="btn">
-        View Instagram
+        View More
       </a>
     </div>
-  </header>
 
-  <!-- ABOUT -->
-  <section class="section">
-    <div class="container">
-      <h2>About</h2>
-      <p>
-        Specializing in clean, detailed, and modern nail designs. Whether you're
-        looking for something minimal or bold, Nails by Tinsy delivers high-quality,
-        personalized nail artistry tailored to you.
-      </p>
+  </div>
+</section>
+
+<!-- LOCATION -->
+<section class="section">
+  <div class="container">
+    <h2>Location</h2>
+
+    <div class="card">
+      <h3>Glamour Nail Studio</h3>
+      <p>South Barrington, Illinois</p>
+
+      <iframe
+        src="https://www.google.com/maps?q=Glamour+Nail+Studio+South+Barrington+IL&output=embed"
+        width="100%"
+        height="300"
+        style="border:0; border-radius:12px;"
+        loading="lazy">
+      </iframe>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- LOCATION -->
-  <section class="section alt">
-    <div class="container">
-      <h2>Location</h2>
-      <p>
-        Located at <strong>Glamour Nail Studio</strong><br/>
-        South Barrington, Illinois
-      </p>
-    </div>
-  </section>
+<!-- CTA -->
+<section class="cta">
+  <h2>Ready for your next set?</h2>
+  <a href="https://www.instagram.com/nailsbytinsy/" target="_blank" class="btn">
+    Book via Instagram
+  </a>
+</section>
 
-  <!-- CONTACT -->
-  <section class="section">
-    <div class="container">
-      <h2>Contact</h2>
+<footer>
+  <p>© 2026 Nails by Tinsy</p>
+</footer>
 
-      <div class="contact-card">
-        <p><strong>Instagram:</strong></p>
-        <a href="https://www.instagram.com/nailsbytinsy/" target="_blank">
-          @nailsbytinsy
-        </a>
-      </div>
+<!-- Instagram embed script -->
+<script async src="//www.instagram.com/embed.js"></script>
 
-      <div class="contact-card">
-        <p><strong>Salon:</strong></p>
-        <p>Glamour Nail Studio</p>
-        <p>📍 South Barrington, IL</p>
-        <p>📞 (Add salon phone number here)</p>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer>
-    <p>© 2026 Nails by Tinsy</p>
-  </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
