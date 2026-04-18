@@ -55,6 +55,7 @@ body {
   color: white;
   text-decoration: none;
   transition: 0.3s;
+  display: inline-block;
 }
 
 .btn:hover {
@@ -76,12 +77,31 @@ body {
   margin: auto;
 }
 
+/* ABOUT */
+.about-content p {
+  max-width: 680px;
+  margin: 0 auto 16px;
+  line-height: 1.7;
+  color: #555;
+}
+
 /* CARD */
 .card {
   background: white;
   padding: 30px;
   border-radius: 16px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+/* APPOINTMENT NOTE */
+.appointment-note {
+  font-weight: 500;
+  color: #e8b4b8;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-top: 4px;
+  margin-bottom: 20px;
 }
 
 /* CAROUSEL */
