@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Nails by Tina</title>
 
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -14,155 +14,198 @@
 <body>
 
 <!-- NAV -->
-<nav class="nav">
-  <div class="nav-container">
-    <h2>Nails by Tina</h2>
+<nav class="nav hero-visible" id="mainNav">
+  <a href="#" class="nav-logo">Nails by Tina</a>
+  <div class="nav-right">
+    <a href="#about" class="nav-link">About</a>
+    <a href="#services" class="nav-link">Services</a>
+    <a href="#gallery" class="nav-link">Gallery</a>
+    <a href="#location" class="nav-link">Location</a>
     <a href="https://www.instagram.com/nailsbytinsy/"
        target="_blank"
        rel="noopener noreferrer"
-       class="nav-btn ig-link"
+       class="nav-cta ig-link"
        data-ig-user="nailsbytinsy">
-      Instagram
+      Book Now
     </a>
   </div>
 </nav>
 
 <!-- HERO -->
-<section class="hero">
+<section class="hero" id="hero">
+  <div class="hero-bg"></div>
   <div class="hero-content">
-    <h1>Luxury Nail Artistry</h1>
-    <p>Clean • Detailed • Modern</p>
+    <p class="hero-eyebrow">South Barrington, Illinois</p>
+    <h1>Precision nail artistry,<br><em>elevated.</em></h1>
+    <p class="hero-sub">Structure-focused gel extensions and bespoke designs. By appointment only.</p>
     <a href="https://www.instagram.com/nailsbytinsy/"
        target="_blank"
        rel="noopener noreferrer"
-       class="btn ig-link"
+       class="hero-btn ig-link"
        data-ig-user="nailsbytinsy">
-      Book / DM
+      Book Your Appointment
     </a>
+  </div>
+  <div class="hero-deco">
+    <div class="hero-deco-line"></div>
+    <span class="hero-deco-text">Est. 2024</span>
   </div>
 </section>
 
 <!-- ABOUT -->
-<section class="section">
-  <div class="container about-content">
-    <h2>About</h2>
-    <p>
-      Hi, I'm Tina. I specialize in builder/hard gel and Gel X extensions, focusing on structure, precision, and long-lasting, refined results.
-    </p>
-    <p>
-      I am also experienced in gel manicures, dip, hybrid/poly gel systems, and acrylics, allowing me to select the most suitable method for each client while maintaining the integrity and appearance of the nails.
-    </p>
-    <p>
-      My style ranges from minimal, clean aesthetics to modern French, soft ombré, and custom-designed sets — all tailored to complement each client's personal style.
-    </p>
-    <p>
-      This is a detail-focused, non-rushed service experience designed for clients who value quality, consistency, and well-executed work. Every set is customized to fit your lifestyle and aesthetic.
-    </p>
+<section id="about">
+  <div class="about">
+    <div class="about-left">
+      <p class="section-label fade-in">About</p>
+      <h2 class="section-heading fade-in">Detail-focused,<br>never rushed.</h2>
+      <p class="about-sig fade-in">— Tina</p>
+    </div>
+    <div class="about-body">
+      <p class="fade-in">I specialize in builder/hard gel and Gel&nbsp;X extensions — structure, precision, and results that last.</p>
+      <p class="fade-in">I'm also experienced in gel manicures, dip, hybrid/poly gel, and acrylics. This allows me to choose the best method for each client while protecting the integrity of your natural nails.</p>
+      <p class="fade-in">My style ranges from minimal, clean aesthetics to modern French, soft ombré, and fully custom sets — always tailored to you.</p>
+      <p class="fade-in">Every appointment is an unhurried, one-on-one experience for clients who value quality, consistency, and well-executed work.</p>
+    </div>
   </div>
 </section>
 
-<!-- INSTAGRAM CAROUSEL -->
-<section class="section alt">
-  <div class="container">
-    <h2>Recent Work</h2>
+<!-- SERVICES -->
+<section id="services" class="services-section">
+  <div style="text-align:center;">
+    <p class="section-label fade-in">Services</p>
+    <h2 class="section-heading fade-in">What I offer</h2>
+  </div>
+  <div class="services-grid">
+    <div class="service-card fade-in">
+      <h3 class="service-name">Gel X Extensions</h3>
+      <p class="service-desc">Full-cover soft gel tips with builder gel overlay. Lightweight, natural-looking, and gentle on your nails.</p>
+      <span class="service-from">From $XX</span>
+    </div>
+    <div class="service-card fade-in">
+      <h3 class="service-name">Builder / Hard Gel</h3>
+      <p class="service-desc">Sculpted structure for strength and length. Ideal for clients who want durability with a refined finish.</p>
+      <span class="service-from">From $XX</span>
+    </div>
+    <div class="service-card fade-in">
+      <h3 class="service-name">Gel Manicure</h3>
+      <p class="service-desc">Classic gel polish on your natural nails. Clean, glossy, and chip-resistant for 2–3 weeks.</p>
+      <span class="service-from">From $XX</span>
+    </div>
+    <div class="service-card fade-in">
+      <h3 class="service-name">Nail Art Add-On</h3>
+      <p class="service-desc">Custom designs — from French tips and ombré to hand-painted details. Priced per complexity.</p>
+      <span class="service-from">Varies</span>
+    </div>
+    <div class="service-card fade-in">
+      <h3 class="service-name">Dip Powder</h3>
+      <p class="service-desc">Durable, lightweight powder application with a wide range of color options. No UV lamp needed.</p>
+      <span class="service-from">From $XX</span>
+    </div>
+    <div class="service-card fade-in">
+      <h3 class="service-name">Soak Off / Removal</h3>
+      <p class="service-desc">Gentle removal of any existing set. Includes nail shaping and a hydrating treatment.</p>
+      <span class="service-from">From $XX</span>
+    </div>
+  </div>
+</section>
 
-    <div class="carousel">
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="gallery-intro">
+    <p class="section-label fade-in">Gallery</p>
+    <h2 class="section-heading fade-in">Recent work</h2>
+    <p class="fade-in">Follow along on Instagram for the latest sets.</p>
+  </div>
 
-      <button class="carousel-btn prev" aria-label="Previous">&#10094;</button>
-
-      <div class="carousel-track">
-
-        <div class="carousel-item">
-          <blockquote class="instagram-media"
-            data-instgrm-permalink="https://www.instagram.com/p/DXIbjO0kao2/"
-            data-instgrm-version="14"></blockquote>
-        </div>
-
-        <div class="carousel-item">
-          <blockquote class="instagram-media"
-            data-instgrm-permalink="https://www.instagram.com/p/DWpqlh3jLuU/"></blockquote>
-        </div>
-
-        <div class="carousel-item">
-          <blockquote class="instagram-media"
-            data-instgrm-permalink="https://www.instagram.com/p/DWXoczqkXco/"></blockquote>
-        </div>
-
-        <div class="carousel-item">
-          <blockquote class="instagram-media"
-            data-instgrm-permalink="https://www.instagram.com/p/DWAc4VMkf1N/"></blockquote>
-        </div>
-
-        <div class="carousel-item">
-          <blockquote class="instagram-media"
-            data-instgrm-permalink="https://www.instagram.com/p/DVpLe-lkUS7/"></blockquote>
-        </div>
-
+  <div class="carousel">
+    <div class="carousel-track">
+      <div class="carousel-item">
+        <blockquote class="instagram-media"
+          data-instgrm-permalink="https://www.instagram.com/p/DXIbjO0kao2/"
+          data-instgrm-version="14"></blockquote>
       </div>
-
+      <div class="carousel-item">
+        <blockquote class="instagram-media"
+          data-instgrm-permalink="https://www.instagram.com/p/DWpqlh3jLuU/"></blockquote>
+      </div>
+      <div class="carousel-item">
+        <blockquote class="instagram-media"
+          data-instgrm-permalink="https://www.instagram.com/p/DWXoczqkXco/"></blockquote>
+      </div>
+      <div class="carousel-item">
+        <blockquote class="instagram-media"
+          data-instgrm-permalink="https://www.instagram.com/p/DWAc4VMkf1N/"></blockquote>
+      </div>
+      <div class="carousel-item">
+        <blockquote class="instagram-media"
+          data-instgrm-permalink="https://www.instagram.com/p/DVpLe-lkUS7/"></blockquote>
+      </div>
+    </div>
+    <div class="carousel-controls">
+      <button class="carousel-btn prev" aria-label="Previous">&#10094;</button>
       <button class="carousel-btn next" aria-label="Next">&#10095;</button>
-
     </div>
+  </div>
 
-    <div style="margin-top: 30px;">
-      <a href="https://www.instagram.com/nailsbytinsy/"
-         target="_blank"
-         rel="noopener noreferrer"
-         class="btn ig-link"
-         data-ig-user="nailsbytinsy">
-        View More
-      </a>
-    </div>
-
+  <div style="text-align:center;">
+    <a href="https://www.instagram.com/nailsbytinsy/"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="gallery-link ig-link"
+       data-ig-user="nailsbytinsy">
+      View more on Instagram &rarr;
+    </a>
   </div>
 </section>
 
-<!-- LOCATION & BOOKING -->
-<section class="section">
-  <div class="container">
-    <h2>Location & Booking</h2>
+<!-- LOCATION -->
+<section id="location" class="location-section">
+  <div style="text-align:center;">
+    <p class="section-label fade-in">Location</p>
+    <h2 class="section-heading fade-in">Where to find me</h2>
+  </div>
 
-    <div class="card">
+  <div class="location-grid">
+    <div class="location-info fade-in">
       <h3>Glamour Nail Studio</h3>
-      <p>South Barrington, IL — Hoffman Estates / Barrington area</p>
-      <p class="appointment-note">By appointment only</p>
-
-      <iframe
-        src="https://www.google.com/maps?q=Glamour+Nail+Studio+South+Barrington+IL&output=embed"
-        width="100%"
-        height="300"
-        style="border:0; border-radius:12px;"
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
-
-      <div style="margin-top: 24px;">
+      <p>South Barrington, IL</p>
+      <p>Hoffman Estates / Barrington area</p>
+      <div class="location-badge">By Appointment Only</div>
+      <div style="margin-top: 28px;">
         <a href="https://www.instagram.com/nailsbytinsy/"
            target="_blank"
            rel="noopener noreferrer"
-           class="btn ig-link"
+           class="cta-btn ig-link"
            data-ig-user="nailsbytinsy">
           Book Your Appointment
         </a>
       </div>
     </div>
+    <div class="location-map fade-in">
+      <iframe
+        src="https://www.google.com/maps?q=Glamour+Nail+Studio+South+Barrington+IL&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
   </div>
 </section>
 
 <!-- CTA -->
-<section class="cta">
-  <h2>Ready for your next set?</h2>
+<section class="cta-section">
+  <p class="section-label fade-in">Get Started</p>
+  <h2 class="section-heading fade-in">Ready for your<br>next set?</h2>
   <a href="https://www.instagram.com/nailsbytinsy/"
      target="_blank"
      rel="noopener noreferrer"
-     class="btn ig-link"
+     class="cta-btn ig-link fade-in"
      data-ig-user="nailsbytinsy">
     Book via Instagram
   </a>
 </section>
 
 <footer>
-  <p>© 2026 Nails by Tinsy</p>
+  <p>&copy; 2026 Nails by Tinsy</p>
 </footer>
 
 <!-- Instagram embed script -->
